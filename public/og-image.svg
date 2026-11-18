@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background: Morning Dew Alabaster -->
+  <rect width="1200" height="630" fill="#F4F7F2"/>
+
+  <!-- Soft radial glow behind cup -->
+  <radialGradient id="glow" cx="68%" cy="52%" r="34%">
+    <stop offset="0%"   stop-color="#94B84E" stop-opacity="0.22"/>
+    <stop offset="100%" stop-color="#F4F7F2" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- ─── Teacup silhouette (right half) ─────────────────── -->
+  <!-- Saucer -->
+  <ellipse cx="820" cy="478" rx="155" ry="22" fill="#E8ECE4" stroke="#D0D8CC" stroke-width="1.5"/>
+  <!-- Cup body -->
+  <path d="M672 300 L680 448 Q680 468 820 468 Q960 468 960 448 L968 300 Z"
+        fill="rgba(255,255,255,0.55)" stroke="rgba(30,70,47,0.18)" stroke-width="1.5"/>
+  <!-- Tea liquid -->
+  <ellipse cx="820" cy="360" rx="130" ry="28" fill="#4C7A24" fill-opacity="0.75"/>
+  <!-- Inner liquid gradient -->
+  <ellipse cx="820" cy="360" rx="118" ry="22" fill="#7CB83C" fill-opacity="0.35"/>
+  <!-- Cup rim -->
+  <ellipse cx="820" cy="300" rx="148" ry="26" fill="rgba(255,255,255,0.65)" stroke="rgba(30,70,47,0.15)" stroke-width="1.5"/>
+  <!-- Glass sheen -->
+  <path d="M690 308 L695 445 Q695 458 820 458"
+        fill="none" stroke="rgba(255,255,255,0.45)" stroke-width="2"/>
+  <!-- Handle -->
+  <path d="M960 345 Q1010 345 1010 390 Q1010 435 960 435"
+        fill="none" stroke="rgba(30,70,47,0.22)" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Steam wisps -->
+  <path d="M765 275 Q758 250 765 225 Q772 200 765 180"
+        stroke="#B8C8B0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M820 268 Q813 243 820 218 Q827 193 820 173"
+        stroke="#B8C8B0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M875 275 Q868 250 875 225 Q882 200 875 180"
+        stroke="#B8C8B0" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- Floating tea leaves -->
+  <ellipse cx="800" cy="358" rx="20" ry="6" fill="#3A6B2F" fill-opacity="0.7"
+           transform="rotate(-12 800 358)"/>
+  <ellipse cx="850" cy="362" rx="14" ry="5" fill="#4F8A53" fill-opacity="0.6"
+           transform="rotate(8 850 362)"/>
+
+  <!-- ─── Left column: brand text ────────────────────────── -->
+  <!-- Leaf mark icon -->
+  <path d="M118 180 C118 180 88 200 88 228 a30 30 0 0060 0 C148 200 118 180 118 180Z"
+        fill="#1E462F" fill-opacity="0.9"/>
+  <path d="M118 180 C118 180 110 204 110 228"
+        stroke="#94B84E" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Wordmark -->
+  <text x="88" y="300"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="52" font-weight="400" letter-spacing="2"
+        fill="#1E462F">Embun &amp; Daun</text>
+
+  <!-- Divider -->
+  <line x1="88" y1="322" x2="380" y2="322" stroke="#4F8A53" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Tagline -->
+  <text x="88" y="358"
+        font-family="Georgia, serif"
+        font-size="22" font-weight="400" font-style="italic"
+        fill="#4A6153">Artisanal Botanical Tea House</text>
+
+  <!-- Sensory labels -->
+  <text x="88" y="420"
+        font-family="'Courier New', monospace"
+        font-size="16" letter-spacing="3"
+        fill="#4F8A53">SINGLE-ORIGIN · HIGHLAND INDONESIA</text>
+  <text x="88" y="448"
+        font-family="'Courier New', monospace"
+        font-size="16" letter-spacing="3"
+        fill="#4A6153">75°C – 90°C PRECISION BREW</text>
+
+  <!-- Bottom rule -->
+  <line x1="88" y1="510" x2="560" y2="510" stroke="#D0D8CC" stroke-width="1"/>
+  <text x="88" y="534"
+        font-family="'Courier New', monospace"
+        font-size="13" letter-spacing="2"
+        fill="#94B84E">KINTAMANI · BALI</text>
+</svg>

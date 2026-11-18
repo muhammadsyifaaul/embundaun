@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://embun-daun.vercel.app/sitemap.xml

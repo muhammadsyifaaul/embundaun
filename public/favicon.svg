@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <!-- Leaf drop -->
+  <path
+    d="M16 2C16 2 5 9 5 18a11 11 0 0022 0C27 9 16 2 16 2Z"
+    fill="#1E462F"
+  />
+  <!-- Central vein -->
+  <path
+    d="M16 2C16 2 12 11 12 18"
+    stroke="#94B84E"
+    stroke-width="1.4"
+    stroke-linecap="round"
+  />
+  <!-- Dew drop -->
+  <circle cx="16" cy="28" r="1.8" fill="#4F8A53"/>
+</svg>
