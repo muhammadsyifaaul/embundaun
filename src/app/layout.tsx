@@ -36,7 +36,7 @@ export const viewport: Viewport = {
 };
 
 /* ─── Page metadata ──────────────────────────────────────────── */
-const BASE_URL = "https://embun-daun.vercel.app";
+const BASE_URL = "https://embundaun.vercel.app/;
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
